@@ -1,0 +1,25 @@
+#!/bin/bash
+for i in {1..9}
+do
+	mkdir $1/$1$i.except
+	find $1 -maxdepth 1 -iname '*.csv' -not -name $1$i'.csv' -exec cat {} +>$1/$1$i.except/temp
+	cat $1/$1$i.except/temp | awk -F',' '{print "1 1:" $4 " 2:" $5}' | grep -v beta > $1/$1$i.except/$1$i.single.train.libsvm
+	cat $1/$1$i.except/$1$i.single.train.libsvm | grep -v "1 1: 2:" > $1/$1$i.except/$1$i.single.train.clean.libsvm
+
+	echo 'Scaling '$1$i'.csv'
+	./svm-scale -l -1 -u 1 -s range $1/$1$i.except/$1$i.single.train.clean.libsvm > $1/$1$i.except/$1$i.single.train.clean.libsvm.scale
+
+	echo 'Training '$1$i'.csv'
+	./svm-train -s 2 -n 0.2 $1/$1$i.except/$1$i.single.train.clean.libsvm.scale $1/$1$i.except/$1$i.single.train.clean.libsvm.scale.model
+done
+
+echo 'Test Scaling'
+for i in {1..9}
+do
+	cat $1/$1$i'.csv' | awk -F',' '{print "1 1:" $4 " 2:" $5}' | grep -v beta > $1/$1$i.single.test.libsvm
+	cat $1/$1$i.single.test.libsvm | grep -v "1 1: 2:" > $1/$1$i.single.test.clean.libsvm
+
+	echo 'Scaling '$1$i'.csv'
+	./svm-scale -l -1 -u 1 -s range $1/$1$i.single.test.clean.libsvm > $1/$1$i.single.test.clean.libsvm.scale
+
+done

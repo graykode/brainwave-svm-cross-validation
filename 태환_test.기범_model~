@@ -1,0 +1,244 @@
+ -0.401916
+ 0.0179737
+ 0.0942272
+ -0.309327
+ 0.430006
+ -0.200893
+ -0.0930586
+ -0.475437
+ -0.205933
+ -0.247904
+ 0.126961
+ 0.147362
+ -0.219599
+ 0.278459
+ -0.0865438
+ -0.0101952
+ -0.313926
+ -0.0532801
+ -0.224671
+ 0.126961
+ 0.147362
+ -0.219599
+ 0.29784
+ -0.0865438
+ -0.0101952
+ -0.313926
+ -0.0532801
+ -0.224671
+ 0.126961
+ 0.148107
+ -0.219599
+ 0.363923
+ -0.0865438
+ -0.0101952
+ -0.313926
+ -0.0532801
+ -0.201437
+ 0.126961
+ 0.170701
+ -0.219599
+ 0.40829
+ -0.06555
+ -0.0101952
+ -0.313926
+ -0.0532801
+ -0.224671
+ 0.126961
+ 0.148107
+ -0.219599
+ 0.364857
+ -0.107761
+ -0.0101952
+ -0.313926
+ -0.0532801
+ -0.224671
+ 0.126961
+ 0.148107
+ -0.219599
+ 0.40829
+ -0.107761
+ -0.0101952
+ -0.313926
+ -0.0532801
+ -0.159042
+ 0.148712
+ 0.170701
+ -0.173318
+ 0.364857
+ -0.078057
+ -0.0101952
+ -0.286774
+ -0.0532801
+ -0.401677
+ 0.0401832
+ 0.102173
+ -0.308383
+ 0.40829
+ -0.222334
+ -0.0722343
+ -0.473758
+ -0.184256
+
+nuwanda@nuwanda-14Z960-MF50KN:~/바탕화면/svm$ bash predict.sh 태환 기범태환1 test / 기범1 model
+Accuracy = 29.9042% (2497/8350) (classification)
+태환2 test / 기범1 model
+Accuracy = 50.8987% (4446/8735) (classification)
+태환3 test / 기범1 model
+Accuracy = 54.7114% (4407/8055) (classification)
+태환4 test / 기범1 model
+Accuracy = 34.5336% (2925/8470) (classification)
+태환5 test / 기범1 model
+Accuracy = 71.5003% (6124/8565) (classification)
+태환6 test / 기범1 model
+Accuracy = 39.9553% (3578/8955) (classification)
+태환7 test / 기범1 model
+Accuracy = 45.3471% (4181/9220) (classification)
+태환8 test / 기범1 model
+Accuracy = 26.2281% (1874/7145) (classification)
+태환9 test / 기범1 model
+Accuracy = 39.7034% (3480/8765) (classification)
+태환1 test / 기범2 model
+Accuracy = 37.6048% (3140/8350) (classification)
+태환2 test / 기범2 model
+Accuracy = 56.348% (4922/8735) (classification)
+태환3 test / 기범2 model
+Accuracy = 57.3681% (4621/8055) (classification)
+태환4 test / 기범2 model
+Accuracy = 39.0201% (3305/8470) (classification)
+태환5 test / 기범2 model
+Accuracy = 63.9229% (5475/8565) (classification)
+태환6 test / 기범2 model
+Accuracy = 45.6728% (4090/8955) (classification)
+태환7 test / 기범2 model
+Accuracy = 49.4902% (4563/9220) (classification)
+태환8 test / 기범2 model
+Accuracy = 34.3037% (2451/7145) (classification)
+태환9 test / 기범2 model
+Accuracy = 47.336% (4149/8765) (classification)
+태환1 test / 기범3 model
+Accuracy = 38.7665% (3237/8350) (classification)
+태환2 test / 기범3 model
+Accuracy = 56.348% (4922/8735) (classification)
+태환3 test / 기범3 model
+Accuracy = 57.3681% (4621/8055) (classification)
+태환4 test / 기범3 model
+Accuracy = 39.0201% (3305/8470) (classification)
+태환5 test / 기범3 model
+Accuracy = 64.892% (5558/8565) (classification)
+태환6 test / 기범3 model
+Accuracy = 45.6728% (4090/8955) (classification)
+태환7 test / 기범3 model
+Accuracy = 49.4902% (4563/9220) (classification)
+태환8 test / 기범3 model
+Accuracy = 34.3037% (2451/7145) (classification)
+태환9 test / 기범3 model
+Accuracy = 47.336% (4149/8765) (classification)
+태환1 test / 기범4 model
+Accuracy = 38.7665% (3237/8350) (classification)
+태환2 test / 기범4 model
+Accuracy = 56.348% (4922/8735) (classification)
+태환3 test / 기범4 model
+Accuracy = 57.4053% (4624/8055) (classification)
+태환4 test / 기범4 model
+Accuracy = 39.0201% (3305/8470) (classification)
+태환5 test / 기범4 model
+Accuracy = 68.1961% (5841/8565) (classification)
+태환6 test / 기범4 model
+Accuracy = 45.6728% (4090/8955) (classification)
+태환7 test / 기범4 model
+Accuracy = 49.4902% (4563/9220) (classification)
+태환8 test / 기범4 model
+Accuracy = 34.3037% (2451/7145) (classification)
+태환9 test / 기범4 model
+Accuracy = 47.336% (4149/8765) (classification)
+태환1 test / 기범5 model
+Accuracy = 39.9281% (3334/8350) (classification)
+태환2 test / 기범5 model
+Accuracy = 56.348% (4922/8735) (classification)
+태환3 test / 기범5 model
+Accuracy = 58.5351% (4715/8055) (classification)
+태환4 test / 기범5 model
+Accuracy = 39.0201% (3305/8470) (classification)
+태환5 test / 기범5 model
+Accuracy = 70.4145% (6031/8565) (classification)
+태환6 test / 기범5 model
+Accuracy = 46.7225% (4184/8955) (classification)
+태환7 test / 기범5 model
+Accuracy = 49.4902% (4563/9220) (classification)
+태환8 test / 기범5 model
+Accuracy = 34.3037% (2451/7145) (classification)
+태환9 test / 기범5 model
+Accuracy = 47.336% (4149/8765) (classification)
+태환1 test / 기범6 model
+Accuracy = 38.7665% (3237/8350) (classification)
+태환2 test / 기범6 model
+Accuracy = 56.348% (4922/8735) (classification)
+태환3 test / 기범6 model
+Accuracy = 57.4053% (4624/8055) (classification)
+태환4 test / 기범6 model
+Accuracy = 39.0201% (3305/8470) (classification)
+태환5 test / 기범6 model
+Accuracy = 68.2428% (5845/8565) (classification)
+태환6 test / 기범6 model
+Accuracy = 44.6119% (3995/8955) (classification)
+태환7 test / 기범6 model
+Accuracy = 49.4902% (4563/9220) (classification)
+태환8 test / 기범6 model
+Accuracy = 34.3037% (2451/7145) (classification)
+태환9 test / 기범6 model
+Accuracy = 47.336% (4149/8765) (classification)
+태환1 test / 기범7 model
+Accuracy = 38.7665% (3237/8350) (classification)
+태환2 test / 기범7 model
+Accuracy = 56.348% (4922/8735) (classification)
+태환3 test / 기범7 model
+Accuracy = 57.4053% (4624/8055) (classification)
+태환4 test / 기범7 model
+Accuracy = 39.0201% (3305/8470) (classification)
+태환5 test / 기범7 model
+Accuracy = 70.4145% (6031/8565) (classification)
+태환6 test / 기범7 model
+Accuracy = 44.6119% (3995/8955) (classification)
+태환7 test / 기범7 model
+Accuracy = 49.4902% (4563/9220) (classification)
+태환8 test / 기범7 model
+Accuracy = 34.3037% (2451/7145) (classification)
+태환9 test / 기범7 model
+Accuracy = 47.336% (4149/8765) (classification)
+태환1 test / 기범8 model
+Accuracy = 42.0479% (3511/8350) (classification)
+태환2 test / 기범8 model
+Accuracy = 57.4356% (5017/8735) (classification)
+태환3 test / 기범8 model
+Accuracy = 58.5351% (4715/8055) (classification)
+태환4 test / 기범8 model
+Accuracy = 41.3341% (3501/8470) (classification)
+태환5 test / 기범8 model
+Accuracy = 68.2428% (5845/8565) (classification)
+태환6 test / 기범8 model
+Accuracy = 46.0972% (4128/8955) (classification)
+태환7 test / 기범8 model
+Accuracy = 49.4902% (4563/9220) (classification)
+태환8 test / 기범8 model
+Accuracy = 35.6613% (2548/7145) (classification)
+태환9 test / 기범8 model
+Accuracy = 47.336% (4149/8765) (classification)
+태환1 test / 기범9 model
+Accuracy = 29.9162% (2498/8350) (classification)
+태환2 test / 기범9 model
+Accuracy = 52.0092% (4543/8735) (classification)
+태환3 test / 기범9 model
+Accuracy = 55.1086% (4439/8055) (classification)
+태환4 test / 기범9 model
+Accuracy = 34.5809% (2929/8470) (classification)
+태환5 test / 기범9 model
+Accuracy = 70.4145% (6031/8565) (classification)
+태환6 test / 기범9 model
+Accuracy = 38.8833% (3482/8955) (classification)
+태환7 test / 기범9 model
+Accuracy = 46.3883% (4277/9220) (classification)
+태환8 test / 기범9 model
+Accuracy = 26.3121% (1880/7145) (classification)
+태환9 test / 기범9 model
+Accuracy = 40.7872% (3575/8765) (classification)
