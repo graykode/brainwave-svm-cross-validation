@@ -30,4 +30,4 @@ The result like this.
 
 Near to -1 mean is different to each one. Near to 1 mean is same to each one
 
-But I think it has a large range Accuracy. Maybe DataSet is not good enough..:'(
+But I think it has a large range Accuracy. Maybe DataSet is not good enough..:'( 
