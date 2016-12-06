@@ -1,3 +1,4 @@
+
 # brainwave-svm-cross-validation
 From https://github.com/jijames/brainwave-svm-login, I test throught Cross-validation using Svm. Each person has 9 Experiments data and I make models like this:
 
